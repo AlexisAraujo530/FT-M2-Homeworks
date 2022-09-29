@@ -1,1 +1,24 @@
 // Mixins acá
+.flex (@direction: row, @justify: center, @align: center) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.imgBorder (@radius: 20px) {
+    border-radius: @radius;
+}
+.miBoton (@bg-color, @font-color) {
+    border-radius: 10px;
+    color: @font-color;
+    background-color: @bg-color;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    &:hover {
+        background-color: @font-color;
+        color: @bg-color;
+    }
+}
+

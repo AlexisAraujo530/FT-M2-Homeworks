@@ -78,9 +78,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // Tu código acá:
-  toDo = [];
-  toDo = toDos.map(buildToDo);
-  return toDo;
+  var arr = toDos.map(function(todo, index) {return buildToDo (todo, index)});
+  return arr;
 
 }
 

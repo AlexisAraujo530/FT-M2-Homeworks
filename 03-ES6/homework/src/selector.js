@@ -30,7 +30,7 @@ var matchFunctionMaker = function(selector) {
   var selectorType = selectorTypeMatcher(selector);
   var matchFunction;
   if (selectorType === "id") { 
-   
+    
   } else if (selectorType === "class") {
     
   } else if (selectorType === "tag.class") {
