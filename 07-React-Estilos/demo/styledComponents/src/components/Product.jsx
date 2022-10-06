@@ -7,7 +7,7 @@ const Producto = styled.div`
   & h3 {
     background-color: SpringGreen; 
   }
-`;
+`; 
 
 const Titulo = styled.h3`
   font-size: 30px;
